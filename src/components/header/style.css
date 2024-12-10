@@ -1,15 +1,33 @@
 .header {
-  padding: 205px;
+  padding: 15vh 10%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--header-bg);
   background-image: url("../../img/wp2552444.webp");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover; 
   background-position: center center;
   color: var(--header-text);
   text-align: center;
+  min-height: 100vh;
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10vh 5%;
+    background-size: cover; 
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 5vh 2%;
+    text-align: left;
+    background-size: cover; 
+  }
+}
+
 
 .header__wrapper {
   padding: 15px;
