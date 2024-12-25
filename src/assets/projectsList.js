@@ -22,7 +22,7 @@ export const projects = [
     title: "TESTING PLATFORM",
     skills: "React, Redux/Toolkit, TypeScript, Axios",
     img: TS,
-    gitHubLink: "https://github.com/VahanKochkanyan/Testing-Platform",
+    gitHubLink: "https://github.com/VahanKochkanyan/Testing_Platform",
   
   },
 ];
